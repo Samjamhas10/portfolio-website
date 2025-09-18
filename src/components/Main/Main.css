@@ -1,0 +1,21 @@
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: #f9f9f9; */
+}
+
+.main__greeting {
+  font-size: 20px;
+  font-weight: 300px;
+  color: #cb3322;
+  margin-top: 10px;
+}
+
+.main__name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #cb3322;
+}
