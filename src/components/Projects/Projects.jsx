@@ -9,7 +9,8 @@ const projectsData = [
   },
   {
     title: "To-Do App",
-    description: "",
+    description:
+      "A simple and effective to-do list application to help you stay organized.",
     link: "https://samjamhas10.github.io/se_project_todo-app/",
   },
   {
