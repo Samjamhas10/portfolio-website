@@ -21,7 +21,8 @@ const projectsData = [
   },
   {
     title: "Ghost Gaming",
-    description: "Description of project 4",
+    description:
+      "A React-based app that connects to the IGDB API, featuring authentication, browsing/searching games, and user profiles.",
     link: "https://ghost-app.jumpingcrab.com/",
   },
 ];

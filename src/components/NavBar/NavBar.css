@@ -1,5 +1,30 @@
-.navbar__links {
-  font-size: 20px;
+.navbar {
+  background: #171c28;
+  color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  /* padding: 0.75rem 2 rem; */
+  /* box-shadow: 0 2px 8px rgba(23, 28, 40, 0.12); */
+}
+
+.navbar__logo {
+}
+
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navbar__link:hover {
+}
+
+.navbar__links {
+  display: flex;
+  gap: 2rem;
 }

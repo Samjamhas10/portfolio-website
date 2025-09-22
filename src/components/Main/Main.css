@@ -8,14 +8,34 @@
 }
 
 .main__greeting {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300px;
   color: #cb3322;
   margin-top: 10px;
+  letter-spacing: 1px;
 }
 
 .main__name {
   font-size: 40px;
   font-weight: bold;
   color: #cb3322;
+  letter-spacing: 2px;
+}
+
+.main__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #7ac7c4;
+  padding: 11px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(122, 199, 196, 0.12);
+}
+
+.main__link:hover {
+  /* background: */
+  transform: translateY(-2px) scale(1.04);
 }
