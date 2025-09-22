@@ -1,7 +1,4 @@
 import "./Home.css";
-import AboutMe from "../AboutMe/AboutMe";
-import Projects from "../Projects/Projects";
-import ContactMe from "../ContactMe/ContactMe";
 
 function Home({ onViewMyWork, onGetInContact }) {
   return (
@@ -21,15 +18,6 @@ function Home({ onViewMyWork, onGetInContact }) {
           </button>
         </div>
       </header>
-      <section id="about">
-        <AboutMe />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="contact">
-        <ContactMe />
-      </section>
     </main>
   );
 }

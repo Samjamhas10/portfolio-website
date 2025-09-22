@@ -1,0 +1,30 @@
+.notfound__page {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f8f8fa;
+  color: #2d3142;
+  padding: 48px 16px;
+}
+
+.notfound__error {
+  font-size: 2rem;
+  color: #cb3322;
+  margin: 24px 0;
+  font-weight: bold;
+}
+
+.notfound__home-link {
+  margin-top: 32px;
+  color: #646cff;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.notfound__home-link:hover {
+  color: #cb3322;
+}

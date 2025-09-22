@@ -9,6 +9,7 @@ import Projects from "../Projects/Projects";
 import AboutMe from "../AboutMe/AboutMe";
 import ContactMe from "../ContactMe/ContactMe";
 import Footer from "../Footer/Footer";
+import NotFound from "../NotFound/NotFound";
 
 // import styles
 import "./App.css";
@@ -32,6 +33,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contactme" element={<ContactMe />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
