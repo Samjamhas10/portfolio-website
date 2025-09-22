@@ -1,9 +1,11 @@
+import profilepic from "../../assets/profilepic.jpg";
 import "./Home.css";
 
 function Home({ onViewMyWork, onGetInContact }) {
   return (
     <main className="home">
       <header>
+        <img src={profilepic} alt="Profile" className="home__profile-image" />
         <h1 className="home__name">Hi, I'm SamSam</h1>
         <p className="home__description">
           A passionate detail-oriented Full-stack developer with a passion for
