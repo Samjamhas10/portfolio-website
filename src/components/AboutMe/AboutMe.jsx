@@ -11,6 +11,19 @@ function AboutMe() {
           more. I love learning new technologies and collaborating on exciting
           projects.
         </p>
+        <div className="aboutme__skills">Skills</div>
+        <ul className="aboutme__skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Figma</li>
+          <li>Deployment</li>
+        </ul>
         <div className="aboutme__links">
           <a
             href="https://github.com/Samjamhas10"

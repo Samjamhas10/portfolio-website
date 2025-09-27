@@ -27,3 +27,45 @@
   /* color: blue; */
   color: #4c5565;
 }
+
+.aboutme__skills {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #293042;
+}
+
+.aboutme__skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutme__skills-list li {
+  background-color: #f0f0f0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #293042;
+}
+
+.aboutme__links {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.aboutme__links a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #1e4d67;
+  transition: color 0.3s ease;
+}
+
+.aboutme__links a:hover {
+  color: #023e8a;
+}

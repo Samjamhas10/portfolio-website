@@ -77,17 +77,17 @@ html {
   justify-content: center;
   width: 50px;
   height: 50px;
-  border-radius: 50%; /* makes it a circle */
+  border-radius: 50%;
   background-color: #f0f0f0; /* light gray background */
-  color: #333; /* icon color */
+  color: #333;
   font-size: 1.5rem;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* soft shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .home__links a:hover {
   background-color: #0077b6; /* blue background on hover */
   color: #fff;
   transform: scale(1.1); /* subtle zoom */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* deeper shadow */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
