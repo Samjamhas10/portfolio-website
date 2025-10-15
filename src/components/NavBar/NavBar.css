@@ -4,28 +4,110 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0.75rem 2 rem; */
-  /* box-shadow: 0 2px 8px rgba(23, 28, 40, 0.12); */
+  padding: 12px 32px;
+  box-shadow: 0 2px 8px rgba(23, 28, 40, 0.12);
+  position: relative;
 }
 
 .navbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.navbar__logo:focus,
+.navbar__logo:hover {
+  background: #232a3d;
+  outline: none;
+}
+
+.navbar__toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+  z-index: 1002;
+}
+
+.navbar__hamburger,
+.navbar__hamburger::before,
+.navbar__hamburger::after {
+  display: block;
+  background: #fff;
+  height: 3px;
+  width: 24px;
+  border-radius: 2px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.navbar__hamburger::before,
+.navbar__hamburger::after {
+  content: "";
+  position: absolute;
+}
+
+.navbar__hamburger::before {
+  top: -8px;
+}
+
+.navbar__hamburger::after {
+  top: 8px;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 32px;
+  align-items: center;
 }
 
 .navbar__link {
   color: #fff;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 500;
-  padding: 0.4rem 0.8rem;
+  padding: 6px 12px;
   border-radius: 4px;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
+.navbar__link:focus,
 .navbar__link:hover {
+  background: #232a3d;
+  color: #e2e8f0;
+  outline: none;
 }
 
-.navbar__links {
-  display: flex;
-  gap: 2rem;
+.navbar__link--active {
+  background: #2c3654;
+  color: #70b7ff;
+  box-shadow: 0 2px 8px rgba(112, 183, 255, 0.15);
 }
 
+@media (max-width: 768px) {
+  .navbar__toggle {
+    display: block;
+  }
+  .navbar__links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #171c28;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 32px;
+    display: none;
+    z-index: 1001;
+  }
+  .navbar__links--open {
+    display: flex;
+  }
+}

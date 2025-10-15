@@ -6,8 +6,8 @@ function AboutMe() {
       <div className="aboutme__container">
         <h2 className="aboutme__title">About Me</h2>
         <p className="aboutme__text">
-          Hi! I'm SamSam, a passionate Full-Stack Software Engineer with
-          experience in building web applications using React, Node.js, and
+          Hi! I'm Samsam Hashi, a passionate Full-Stack Software Engineer
+          with experience in building web applications using React, Node.js, and
           more. I love learning new technologies and collaborating on exciting
           projects.
         </p>

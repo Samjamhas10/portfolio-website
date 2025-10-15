@@ -11,7 +11,7 @@ function Home({ onViewMyWork, onGetInContact }) {
           alt="Portrait of SamSam"
           className="home__profile-image"
         />
-        <h1 className="home__name">Hi, I'm SamSam</h1>
+        <h1 className="home__name">Hi, I'm Samsam Hashi!</h1>
         <p className="home__description">
           A detail-oriented Full-stack developer driven by building meaningful
           solutions that help others.
