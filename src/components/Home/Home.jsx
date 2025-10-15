@@ -13,9 +13,11 @@ function Home({ onViewMyWork, onGetInContact }) {
         />
         <h1 className="home__name">Hi, I'm Samsam Hashi!</h1>
         <p className="home__description">
-          A detail-oriented Full-stack developer driven by building meaningful
-          solutions that help others.
+          Detail-oriented full-stack developer who enjoys solving complex
+          problems and turning ideas into seamless, user-friendly web
+          applications.
         </p>
+
         <div className="home__buttons">
           <button className="home__button" onClick={onViewMyWork}>
             View My Work
