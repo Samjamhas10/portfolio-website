@@ -37,6 +37,15 @@ html {
 }
 
 .home__button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #1b2a6c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .home__button:hover {
