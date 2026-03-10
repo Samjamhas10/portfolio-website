@@ -6,10 +6,16 @@ function AboutMe() {
       <div className="aboutme__container">
         <h2 className="aboutme__title">About Me</h2>
         <p className="aboutme__text">
-          Hi! I'm Samsam Hashi, a passionate Full-Stack Software Engineer
-          with experience in building web applications using React, Node.js, and
-          more. I love learning new technologies and collaborating on exciting
-          projects.
+          Hi! I'm Samsam Hashi, a passionate Full-Stack Software Engineer who
+          enjoys building modern, responsive web applications. I work primarily
+          with technologies like React, Node.js, JavaScript, and modern frontend
+          tools to create clean, user-focused experiences. I enjoy turning ideas
+          into real, functional products and continuously improving my skills
+          through hands-on projects. From designing intuitive interfaces to
+          developing scalable backend systems, I love every part of the
+          development process. I'm currently focused on growing as an engineer,
+          contributing to meaningful projects, and collaborating with teams that
+          value creativity, learning, and problem-solving.
         </p>
         <div className="aboutme__skills">Skills</div>
         <ul className="aboutme__skills-list">

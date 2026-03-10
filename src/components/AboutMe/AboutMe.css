@@ -1,71 +1,93 @@
 .aboutme {
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 16px;
+  padding: 60px 30px;
+  background: linear-gradient(180deg, #f8f9fa 0%, #fff 100%);
+  min-height: 100vh;
 }
 
 .aboutme__container {
-  background: #fff;
-  padding: 60px;
-  max-width: 620px;
-  width: 100%;
-  text-align: center;
-  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .aboutme__title {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bold;
-  letter-spacing: 2px;
-  color: #293042;
+  text-align: center;
+  color: #22223b;
+  margin-bottom: 30px;
 }
 
 .aboutme__text {
-  font-size: 26px;
-  /* color: blue; */
-  color: #4c5565;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .aboutme__skills {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #293042;
+  color: #1b2a6c;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .aboutme__skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
   padding: 0;
-  margin: 0;
+  margin: 0 0 50px 0;
 }
 
 .aboutme__skills-list li {
-  background-color: #f0f0f0;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 16px;
-  color: #293042;
+  background: linear-gradient(135deg, #e0e7ff 0%, #2043a5 100%);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.aboutme__skills-list li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(32, 67, 165, 0.3);
 }
 
 .aboutme__links {
-  margin-top: 20px;
-  font-size: 18px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .aboutme__links a {
+  color: #0077b6;
   text-decoration: none;
-  font-weight: 500;
-  color: #1e4d67;
-  transition: color 0.3s ease;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 .aboutme__links a:hover {
-  color: #023e8a;
+  color: #005a8f;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .aboutme {
+    padding: 40px 20px;
+  }
+
+  .aboutme__title {
+    font-size: 36px;
+  }
+
+  .aboutme__skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
 }
