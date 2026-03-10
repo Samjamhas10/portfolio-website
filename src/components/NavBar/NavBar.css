@@ -26,6 +26,7 @@
 .navbar__logo:hover {
   background: #232a3d;
   outline: none;
+  transform: translateY(-2px);
 }
 
 .navbar__toggle {
@@ -76,7 +77,7 @@
   font-weight: 500;
   padding: 6px 12px;
   border-radius: 4px;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
   cursor: pointer;
 }
 
@@ -92,6 +93,8 @@
   background: #2c3654;
   color: #70b7ff;
   box-shadow: 0 2px 8px rgba(112, 183, 255, 0.15);
+  border-bottom: 2px solid #70b7ff;
+  padding-bottom: 4px;
 }
 
 @media (max-width: 768px) {
