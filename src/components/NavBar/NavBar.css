@@ -6,7 +6,9 @@
   align-items: center;
   padding: 12px 32px;
   box-shadow: 0 2px 8px rgba(23, 28, 40, 0.12);
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar__logo {
