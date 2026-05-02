@@ -1,6 +1,18 @@
 import "./AboutMe.css";
 
 function AboutMe() {
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Deployment",
+  ];
   return (
     <section className="aboutme" id="aboutme">
       <div className="aboutme__container">
@@ -19,16 +31,9 @@ function AboutMe() {
         </p>
         <div className="aboutme__skills">Skills</div>
         <ul className="aboutme__skills-list">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Figma</li>
-          <li>Deployment</li>
+          {skills.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
         </ul>
         <div className="aboutme__links">
           <a
@@ -51,5 +56,4 @@ function AboutMe() {
     </section>
   );
 }
-
 export default AboutMe;
