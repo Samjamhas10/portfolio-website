@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
-import profilepic from "../../assets/profilepic.jpg";
+
 import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
 import ContactMe from "../ContactMe/ContactMe";
@@ -10,11 +10,6 @@ function Home({ onViewMyWork, onGetInContact }) {
     <>
       <main className="home">
         <header>
-          <img
-            src={profilepic}
-            alt="Portrait of SamSam"
-            className="home__profile-image"
-          />
           <h1 className="home__name">Hi, I'm Samsam Hashi!</h1>
           <p className="home__description">
             Detail-oriented full-stack developer who enjoys solving complex

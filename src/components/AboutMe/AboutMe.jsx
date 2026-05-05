@@ -1,4 +1,5 @@
 import "./AboutMe.css";
+import profilepic from "../../assets/profilepic.jpg";
 
 function AboutMe() {
   const skills = [
@@ -16,6 +17,11 @@ function AboutMe() {
   return (
     <section className="aboutme" id="aboutme">
       <div className="aboutme__container">
+        <img
+          src={profilepic}
+          alt="Portrait of SamSam"
+          className="aboutme__profile-pic"
+        />
         <h2 className="aboutme__title">About Me</h2>
         <p className="aboutme__text">
           Hi! I'm Samsam Hashi, a passionate Full-Stack Software Engineer who
