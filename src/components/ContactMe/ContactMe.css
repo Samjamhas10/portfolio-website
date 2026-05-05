@@ -9,6 +9,13 @@
   text-align: center;
 }
 
+.contactme__title {
+  font-size: 40px;
+  color: #213547;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
 .contactme h2 {
   font-size: 52px;
   font-weight: bold;
@@ -17,12 +24,17 @@
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.contactme .intro {
-  font-size: 18px;
+.contactme__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactme__links p {
+  font-size: 1.2rem;
   color: #333;
-  margin-bottom: 40px;
-  max-width: 700px;
-  line-height: 1.8;
+  margin: 0;
 }
 
 .contactme p {
