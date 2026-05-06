@@ -1,43 +1,61 @@
 import "./ContactMe.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 function ContactMe() {
   return (
-    <div className="contactme">
-      <h2 className="contactme__title">Get in Touch</h2>
-
+    <section className="contactme" id="contact">
+      <h2 className="contactme__title">Get In Touch</h2>
       <p className="intro">
         I'm always open to discussing new opportunities, projects, or
-        collaborations.
+        collaborations. Let's connect!
       </p>
-      <div className="contactme__links">
-        <p>
-          <FaEnvelope className="icon" />
-          <a href="mailto:sjama9660@gmail.com">sjama9660@gmail.com</a>
-        </p>
-        <p>
-          <FaLinkedin className="icon" />
-          <a
-            href="https://www.linkedin.com/in/samsamjamahashi/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Visit my LinkedIn profile"
-          >
-            linkedin.com/in/samsamjamahashi
-          </a>
-        </p>
-        <p>
-          <FaGithub className="icon" />
-          <a
-            href="https://github.com/Samjamhas10"
-            target="_blank"
-            rel="noreferrer"
-          >
-            github.com/Samjamhas10
-          </a>
-        </p>
+      <div className="contactme__content">
+        <div className="contactme__info">
+          <div className="contactme__card">
+            <div className="contactme__card-icon">
+              <FaEnvelope size={24} />
+            </div>
+            <h3 className="contactme__card-title">Email</h3>
+            <a href="mailto:sjama9660@gmail.com">sjama9660@gmail.com</a>
+          </div>
+
+          <div className="contactme__card">
+            <div className="contactme__card-icon contactme__card-icon--linkedin">
+              <FaLinkedin size={24} />
+            </div>
+            <h3 className="contactme__card-title">LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/samsamjamahashi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contactme__card-link"
+            >
+              /samsamjamahashi
+            </a>
+          </div>
+
+          <div className="contactme__card">
+            <div className="contactme__card-icon contactme__card-icon--github">
+              <FaGithub size={24} />
+            </div>
+            <h3 className="contactme__card-title">GitHub</h3>
+            <a
+              href="https://github.com/Samjamhas10"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contactme__card-link"
+            >
+              /Samjamhas10
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
