@@ -11,15 +11,39 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 - **Fast Performance** - Built with Vite for instant development
 - **Social Links** - GitHub, LinkedIn, and resume access
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Frontend:** React 19, React Router, React Icons
+- **Frontend:** React, React Router, React Icons
 - **Build Tool:** Vite
 - **Styling:** CSS3, Tailwind CSS
 - **Languages:** JavaScript (ES6+), HTML5
 - **Development:** ESLint for code quality
 
-## 🚀 Getting Started
+## Project Improvements
+
+- This project is a work in progress, and the following improvements are planned to enhance functionality, design, and user experience:
+
+1. Navigation, Home, and Footer:
+
+- Refine the navigation bar for better usability and accessibility.
+- Improve the design and layout of the home and footer sections.
+
+2. Contact Form:
+
+- Fix form submission functionality to ensure messages are sent successfully.
+- Enhance input field visibility when typing to improve user experience.
+
+3. Projects Section:
+
+- Update project images to ensure they load correctly and are visually appealing.
+- Verify and update deployment links for all projects.
+
+4. Responsive Design:
+
+- Resolve horizontal scrolling issues on smaller screens.
+- Improve mobile responsiveness across all sections for a seamless experience on all devices.
+
+## Getting Started
 
 ### Prerequisites
 
