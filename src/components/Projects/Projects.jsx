@@ -26,7 +26,7 @@ const projectsData = [
     link: "https://ghost-app.jumpingcrab.com/",
     github: "https://github.com/Samjamhas10/ghost-gaming",
     image:
-      "https://github.com/Samjamhas10/ghost-gaming-frontend/blob/main/ghost-homepage.png",
+      "https://raw.githubusercontent.com/Samjamhas10/ghost-gaming-frontend/main/ghost-homepage.png",
     tags: ["React", "API", "Authentication"],
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
     link: "https://wtwr-app.jumpingcrab.com/",
     github: "https://github.com/Samjamhas10/wtwr-app",
     image:
-      "https://github.com/Samjamhas10/se_project_react/blob/main/main-route.png",
+      "https://raw.githubusercontent.com/Samjamhas10/se_project_react/main/main-route.png",
     tags: ["React", "Node.js", "API"],
   },
   {
