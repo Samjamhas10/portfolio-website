@@ -24,7 +24,8 @@ const projectsData = [
     description:
       "A React-based app that connects to the IGDB API, featuring authentication, browsing/searching games, and user profiles.",
     link: "https://ghost-app.jumpingcrab.com/",
-    github: "https://github.com/Samjamhas10/ghost-gaming",
+    github: "https://github.com/Samjamhas10/ghost-gaming-frontend",
+    backend: "https://github.com/Samjamhas10/ghost-gaming-backend",
     image:
       "https://raw.githubusercontent.com/Samjamhas10/ghost-gaming-frontend/main/ghost-homepage.png",
     tags: ["React", "API", "Authentication"],
@@ -34,7 +35,8 @@ const projectsData = [
     description:
       "A full-stack weather-based clothing recommendation app that features user authentication. A weather app built with React and Vite that displays and updates current weather and tells you what to wear.",
     link: "https://wtwr-app.jumpingcrab.com/",
-    github: "https://github.com/Samjamhas10/wtwr-app",
+    github: "https://github.com/Samjamhas10/se_project_react",
+    backend: "https://github.com/Samjamhas10/se_project_express",
     image:
       "https://raw.githubusercontent.com/Samjamhas10/se_project_react/main/main-route.png",
     tags: ["React", "Node.js", "API"],
